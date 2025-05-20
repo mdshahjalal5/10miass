@@ -19,7 +19,7 @@ export async function connectToDB() {
     await client.connect();
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
-    db = client.db("coffee-store");
+    db = client.db("recipes");
     console.log("alhamdulillha, mongodb connected successfully");
   } catch (err) {
     console.log(`❌ Faild to connect to MongoDB `, err);

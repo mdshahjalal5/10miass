@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Beef Tehari",
+    "image": "https://images.deepai.org/art-image/2f454155dda24c3092d82313c5418387/a-traditional-bangladeshi-beef-tehari-served-on-a-whi.jpg",
+    "ingredients": [
+      "Beef",
+      "Basmati Rice",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Yogurt",
+      "Spices"
+    ],
+    "instructions": "Cook beef with spices. Add rice and simmer until fully cooked.",
+    "cuisine": "Bangladeshi",
+    "prepTime": 90,
+    "categories": ["Lunch", "Dinner"],
+    "likeCount": 35,
+    "userEmail": "bdfoodlover@example.com",
+    "userName": "Ayesha"
+  },
+  {
+    "title": "Shorshe Ilish",
+    "image": "https://images.deepai.org/art-image/dab0727e89d749f181a2b26550ba8ee8/hilsa-fish-cooked-in-mustard-sauce-shorshe-ilish-serv.jpg",
+    "ingredients": [
+      "Hilsa Fish",
+      "Mustard Paste",
+      "Green Chili",
+      "Mustard Oil",
+      "Salt",
+      "Turmeric"
+    ],
+    "instructions": "Marinate hilsa. Cook in mustard paste with oil and green chilies.",
+    "cuisine": "Bangladeshi",
+    "prepTime": 40,
+    "categories": ["Lunch", "Dinner"],
+    "likeCount": 28,
+    "userEmail": "ilishking@example.com",
+    "userName": "Reza"
+  },
+  {
+    "title": "Chicken Rezala",
+    "image": "https://images.deepai.org/art-image/d95e3d7921f1457f832c3ce005c26946/white-chicken-curry-bangladeshi-chicken-rezala-in-a-c.jpg",
+    "ingredients": [
+      "Chicken",
+      "Onion Paste",
+      "Yogurt",
+      "Ginger",
+      "Garlic",
+      "Cardamom",
+      "Cloves",
+      "Ghee"
+    ],
+    "instructions": "Slow-cook chicken in white curry with aromatic spices and yogurt.",
+    "cuisine": "Bangladeshi",
+    "prepTime": 60,
+    "categories": ["Dinner"],
+    "likeCount": 20,
+    "userEmail": "rezalaqueen@example.com",
+    "userName": "Sumaiya"
+  },
+  {
+    "title": "Chingri Malai Curry",
+    "image": "https://images.deepai.org/art-image/747917527f894e3982dd1b95d9d299da/bangladeshi-prawn-coconut-curry-chingri-malai-curry-p.jpg",
+    "ingredients": [
+      "Prawns",
+      "Coconut Milk",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Turmeric",
+      "Green Chili"
+    ],
+    "instructions": "Cook prawns in coconut milk with spices until creamy and tender.",
+    "cuisine": "Bangladeshi",
+    "prepTime": 45,
+    "categories": ["Dinner", "Seafood"],
+    "likeCount": 32,
+    "userEmail": "malailover@example.com",
+    "userName": "Farhan"
+  },
+  {
+    "title": "Panta Ilish",
+    "image": "https://images.deepai.org/art-image/fcf2a5d912aa4eb4b3ec2296cada6d17/panta-ilish-fermented-rice-with-fried-hilsa-fish-slic.jpg",
+    "ingredients": [
+      "Fermented Rice",
+      "Hilsa Fry",
+      "Onion",
+      "Green Chili",
+      "Mustard Oil",
+      "Salt"
+    ],
+    "instructions": "Soak rice overnight. Serve with fried hilsa and mustard oil toppings.",
+    "cuisine": "Bangladeshi",
+    "prepTime": 20,
+    "categories": ["Breakfast", "Traditional"],
+    "likeCount": 40,
+    "userEmail": "tradition@example.com",
+    "userName": "Mamun"
+  },
+  {
+    "title": "Patishapta Pitha",
+    "image": "https://images.deepai.org/art-image/36e6f7c602a5472ab520d4e9ab19cbf4/bengali-patishapta-pitha-soft-rice-flour-crepes-rolle.jpg",
+    "ingredients": ["Rice Flour", "Coconut", "Jaggery", "Milk", "Cardamom"],
+    "instructions": "Make thin crepes, stuff with coconut-jaggery filling, and roll.",
+    "cuisine": "Bangladeshi",
+    "prepTime": 35,
+    "categories": ["Dessert", "Traditional"],
+    "likeCount": 18,
+    "userEmail": "pithalover@example.com",
+    "userName": "Shirin"
+  }
+]
