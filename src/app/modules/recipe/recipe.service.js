@@ -19,9 +19,24 @@ const createMultipleRecipeIntoDB = async (coffees) => {
   return response;
 };
 
-const getRecipesFromDB = async () => {
+const getRecipesFromDB = async (query) => {
+  const limit = query.limit || 0;
+  const email = query.email;
   const recipeCollection = await getRecipeCollection();
-  const response = await recipeCollection.find().toArray();
+  let response;
+  if (email) {
+    response = await recipeCollection
+      .find({ userEmail: email })
+      .sort({ likeCount: -1 })
+      .limit(limit)
+      .toArray();
+    return response;
+  }
+  response = await recipeCollection
+    .find()
+    .sort({ likeCount: -1 })
+    .limit(limit)
+    .toArray();
   return response;
 };
 

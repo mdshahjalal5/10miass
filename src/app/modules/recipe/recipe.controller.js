@@ -1,4 +1,5 @@
 import sendResponose from "../../../utils/sendResponose.js";
+
 import { RecipeServices } from "./recipe.service.js";
 
 const createRecipe = async (req, res, next) => {
@@ -31,7 +32,15 @@ const createMultipleRecipe = async (req, res, next) => {
 
 const getRecipes = async (req, res, next) => {
   try {
-    const response = await RecipeServices.getRecipesFromDB();
+    const email = req.query.email;
+
+    const limit = Number(req.query.limit) || 0;
+    const likeCount = req.query.likeCount;
+    const response = await RecipeServices.getRecipesFromDB({
+      email,
+      likeCount,
+      limit,
+    });
     sendResponose(res, {
       success: true,
       message: "All coffees fetched successfully",
