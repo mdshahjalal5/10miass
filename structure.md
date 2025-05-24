@@ -1,5 +1,6 @@
 .
 ├── bun.lock
+├── data.json
 ├── package.json
 ├── README.md
 ├── src
@@ -7,11 +8,11 @@
 │   │   ├── config
 │   │   │   └── db.js
 │   │   └── modules
-│   │       └── coffee
-│   │           ├── apiCoffee.hurl
-│   │           ├── coffee.route.js
-│   │           ├── controller.js
-│   │           └── service.js
+│   │       └── recipe
+│   │           ├── apiRecipe.hurl
+│   │           ├── recipe.controller.js
+│   │           ├── recipe.route.js
+│   │           └── recipe.service.js
 │   ├── app.js
 │   ├── errors
 │   │   ├── globalError.js
@@ -20,6 +21,7 @@
 │   └── utils
 │       └── sendResponose.js
 ├── structure.md
-└── structure.txt
+├── structure.txt
+└── vercel.json
 
-8 directories, 15 files
+8 directories, 17 files

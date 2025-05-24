@@ -46,7 +46,101 @@ Content-Type: application/json
 }
 
 
-----create  multiple recipe-------
+--- create  multiple recipe -------
+
+POST http://localhost:5000/api/v1/recipes
+Content-Type: application/json
+[
+  {
+    "title": "Butter Chicken",
+    "image": "https://images.deepai.org/art-image/d9420ff50d6847f1a0ae63987db0ee6a/authentic-italian-margherita-pizza-with-mozzarella-ch.jpg",
+    "ingredients": ["Chicken", "Butter", "Tomato", "Cream", "Spices"],
+    "instructions": "Cook chicken with spices. Make tomato-based sauce with cream and butter. Combine and simmer.",
+    "cuisine": "Indian",
+    "prepTime": 45,
+    "categories": ["Dinner", "Spicy"],
+    "likeCount": 12,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  },
+  {
+    "title": "Tacos al Pastor",
+    "image": "https://images.deepai.org/art-image/b5baf97e05f04ddea5d146c3cc7c65cb/variety-of-colorful-sushi-rolls-with-salmon-tuna-avoc.jpg",
+    "ingredients": ["Pork", "Pineapple", "Onion", "Tortilla", "Chili"],
+    "instructions": "Grill pork with spices, serve in tortilla with pineapple and onion.",
+    "cuisine": "Mexican",
+    "prepTime": 35,
+    "categories": ["Lunch"],
+    "likeCount": 18,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  },
+  {
+    "title": "Margherita Pizza",
+    "image": "https://images.deepai.org/art-image/b5baf97e05f04ddea5d146c3cc7c65cb/variety-of-colorful-sushi-rolls-with-salmon-tuna-avoc.jpg",
+    "ingredients": ["Dough", "Tomato Sauce", "Mozzarella", "Basil"],
+    "instructions": "Spread sauce on dough, add cheese and basil. Bake until crust is golden.",
+    "cuisine": "Italian",
+    "prepTime": 25,
+    "categories": ["Dinner", "Vegetarian"],
+    "likeCount": 22,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  },
+  {
+    "title": "Sushi Rolls",
+    "image": "https://images.deepai.org/art-image/06fe76ea68974d67aa54501c1111c88c/variety-of-colorful-sushi-rolls-with-salmon-tuna-avoc.jpg",
+    "ingredients": ["Rice", "Nori", "Fish", "Cucumber", "Avocado"],
+    "instructions": "Layer rice on nori, add fillings, and roll tightly. Slice and serve.",
+    "cuisine": "Japanese",
+    "prepTime": 50,
+    "categories": ["Lunch", "Healthy"],
+    "likeCount": 9,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  },
+  {
+    "title": "Tom Yum Soup",
+    "image": "https://images.deepai.org/art-image/6d46f6ee7d8d4b07a61bf4b334c62261/hot-and-sour-thai-tom-yum-soup-with-shrimp-mushrooms-.jpg",
+    "ingredients": ["Shrimp", "Lemongrass", "Mushroom", "Lime", "Chili"],
+    "instructions": "Boil broth with lemongrass and lime leaves. Add shrimp and veggies.",
+    "cuisine": "Thai",
+    "prepTime": 30,
+    "categories": ["Dinner", "Soup"],
+    "likeCount": 14,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  },
+  {
+    "title": "Miso Ramen",
+    "image": "https://images.deepai.org/art-image/d1f02bcc80564822a5c95170d69afec8/japanese-miso-ramen-bowl-with-sliced-pork-boiled-egg-.jpg",
+    "ingredients": ["Ramen Noodles", "Miso", "Egg", "Corn", "Pork"],
+    "instructions": "Cook noodles, prepare miso broth. Add toppings and serve hot.",
+    "cuisine": "Japanese",
+    "prepTime": 40,
+    "categories": ["Dinner"],
+    "likeCount": 19,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  },
+  {
+    "title": "Beef Pho",
+    "image": "https://images.deepai.org/art-image/e90c5bf903c641d1a3ce2c7a3f5c2ee9/vietnamese-pho-bowl-with-thin-beef-slices-rice-noodle.jpg",
+    "ingredients": ["Beef", "Rice Noodles", "Cinnamon", "Ginger", "Onion"],
+    "instructions": "Simmer beef broth with spices. Add noodles and sliced beef.",
+    "cuisine": "Vietnamese",
+    "prepTime": 60,
+    "categories": ["Soup", "Dinner"],
+    "likeCount": 15,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  },
+  {
+    "title": "Shahi Korma",
+    "image": "https://images.deepai.org/art-image/61419ff13576440da09d1da537c2f449/traditional-bangladeshi-shahi-korma-in-a-rich-creamy-.jpg",
+    "ingredients": ["Mutton", "Yogurt", "Cream", "Nuts", "Spices"],
+    "instructions": "Cook meat with creamy sauce and aromatic spices until tender.",
+    "cuisine": "Bangladeshi",
+    "prepTime": 75,
+    "categories": ["Dinner", "Festive"],
+    "likeCount": 23,
+    "userEmail": "muhommodshahjalal@gmail.com"
+  }
+]
+----create  multiple recipe -------
 POST http://localhost:5000/api/v1/recipes
 Content-Type: application/json
 [
